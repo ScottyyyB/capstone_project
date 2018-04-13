@@ -1,0 +1,297 @@
+@font-face {
+  font-family: 'Evolve-Sans';
+  src: url('../fonts/evolve-sans.otf') format('truetype');
+}
+
+#main {
+  text-align: left;
+  justify-items: auto;
+}
+
+#main h3 {
+  font-size: 30px;
+}
+
+.jobs {
+  padding: 3.75rem 11.75rem 7.5625rem 11.75rem;
+}
+
+.jobs h3 {
+  margin-bottom: 1rem;
+  font-size: inherit;
+  padding-left: 1rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr) 1fr;
+  grid-template-areas: 'name secondName submit';
+  grid-gap: 20px;
+  grid-row-gap: 30px;
+  align-items: flex-end;
+  margin-bottom: 4.5rem;
+}
+
+#name {
+  grid-area: name;
+}
+
+#secondName {
+  grid-area: secondName;
+}
+
+#submit {
+  grid-area: submit;
+}
+
+#main form .button {
+  height: fit-content;
+  padding: 1.14rem 0;
+}
+
+.job-list {
+  border-top: 18px solid #3B69D4;
+  border-bottom: 18px solid #3B69D4;
+   padding: 1rem 2.4rem;
+}
+
+.job {
+  border-bottom: solid 1px hsla(0, 0%, 59%, 1);
+  padding: 1rem 0;
+  font-family: 'Evolve-Sans', sans-serif;
+  font-weight: 1000;
+  letter-spacing: 1px;
+}
+
+#main h4 {
+  font-size: 18.5px;
+  letter-spacing: 2px;
+}
+
+#main span {
+  font-size: 15.5px;
+}
+
+.job:last-child {
+  border: none;
+}
+
+.job h4 {
+  padding-bottom: .5rem;
+  font-size: inherit;
+  line-height: 1.2;
+}
+
+#see-all-jobs {
+  justify-self: center;
+  margin-top: 3.6875rem;
+}
+
+/* CSS GRID RESPONSIVE */
+
+@media only screen and (max-width: 1020px) {
+  form {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'name secondName'
+                          'submit submit';
+  }
+
+  form {
+    margin-bottom: 75px;
+  }
+
+  #submit {
+    justify-self: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #main h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #main h3 {
+    font-size: 26px;
+  }
+
+  #main h4 {
+    font-size: 16.5px;
+  }
+
+  #main span {
+    font-size: 13.5px;
+  }
+
+  .field label {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+  #main h1 {
+    font-size: 58px;
+  }
+
+  .jobs h3 {
+    padding-left: 3rem;
+  }
+
+  form {
+    width: 290px;
+    justify-self: center;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'name' 
+                         'secondName' 
+                         'submit';
+  }
+
+  .job-list {
+    width: 280px;
+    margin: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         
+                         
+                         'secondName'
+                         'submit submit';
+                         'submit'; 
+    font-size: 58px;
+    font-size: 80px;
+    grid-row-gap: 30px;
+    grid-template-areas: 'name secondName'
+    grid-template-areas: 'name'
+    grid-template-columns: .8fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-self: center;
+    margin: auto;
+    padding-left: 55px;
+    text-align: center;
+    width: 275px;
+  #main h1 {
+  #main h1 {
+  #submit {
+  .job-list {
+  .jobs h3 {
+  align-items: flex-end;  
+  border-bottom: solid 18px #3B69D4;
+  border-bottom: solid 1px hsla(0, 0%, 59%, 1);
+  border-top: solid 18px #3B69D4;
+  border: none;
+  display: grid;
+  font-family: 'Evolve-Sans';
+  font-family: 'Evolve-Sans';
+  font-family: 'Evolve-Sans-Bold';
+  font-family: 'Evolve-Sans-Bold';
+  font-size: inherit;
+  font-weight: 200;
+  form {
+  form {
+  grid-area: name;
+  grid-area: secondName;
+  grid-area: submit;
+  grid-gap: 20px;
+  grid-template-areas: 'name secondName submit';            
+  grid-template-columns: repeat(2, 2fr) 1fr;
+  h1 {
+  height: fit-content;
+  justify-items: auto;
+  justify-self: center;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  margin-bottom: 3.125rem;
+  margin-top: 3.6875rem;
+  padding-bottom: .5rem;
+  padding-top: 0;
+  padding: .15rem 1.4rem;
+  padding: 1.14rem 0;
+  padding: 1rem 0;
+  padding: 1rem 1.2rem;
+  padding: 1rem 2.4rem;
+  padding: 3.75rem 11.75rem 7.5625rem 11.75rem;
+  src: url('../fonts/evolve-sans-bold.otf') format('truetype');
+  src: url('../fonts/evolve-sans.otf') format('truetype');
+  text-align: center;
+  text-align: left;
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+  }
+#main form .button {
+#main h4 {
+#main {
+#name {
+#name2 {
+#see-all-jobs {
+#submit {
+.job h4 {
+.job {
+.job {
+.job-list {
+.job:first-child {
+.job:last-child {
+.jobs h1 {
+.jobs h3 {
+.jobs {
+ CSS GRID RESPONSIVE 
+@font-face {
+@font-face {
+@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 565px) {
+@media only screen and (max-width: 800px) {
+form {
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
