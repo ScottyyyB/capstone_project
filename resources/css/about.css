@@ -106,20 +106,22 @@
   }
 
   .about h2 {
-    width: 300px;
-    margin: auto;
-  }
+     width: 300px;
+   }
  
 
   .about p {
     width: 320px;
-    margin: auto;
     font-size: 14.5px;
   }
 
   .join a {
     font-size: 12px;
     padding: 0;
+  }
+
+  .about {
+    justify-self: center;
   }
 }
 
