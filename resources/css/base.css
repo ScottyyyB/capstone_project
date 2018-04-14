@@ -51,6 +51,10 @@ label {
   letter-spacing: 2px;
 }
 
+textarea, input {
+  border: 2px solid transparent;
+}
+
 textarea:focus, input:focus {
   border: 2px solid #4F89FF;
   transition: .5s;
