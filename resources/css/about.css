@@ -45,11 +45,15 @@
 
 .about, .join {
   display: grid;
-  justify-items: center;
-  padding: 1.5rem 0;
+/*  justify-items: center;
+*/  padding: 1.5rem 0;
   border: solid 1px #e7e7e7;
   border-radius: 2px;
   background-color: hsla(0, 0%, 100%, 1);
+}
+
+.button {
+  justify-self: center;
 }
 
 .join {
@@ -77,14 +81,22 @@
   }
 
   .about h2 {
-    width: 395px;
-    line-height: 3.5rem;
+/*    width: 395px;
+*/    line-height: 3.5rem;
     margin-left: 10px;
   }
 
-  .about p {
-    width: 420px; 
+  .about {
+    justify-items: center;
   }
+
+  .information {
+    padding: 0 20px;
+  }
+
+  /*.about p {
+    width: 420px; 
+  }*/
 }
 
 @media only screen and (max-width: 565px) {
