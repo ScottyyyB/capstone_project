@@ -385,7 +385,6 @@ nav a:visted {
 }
 
 @media only screen and (max-width: 800px) {
-
   #main h1 {
     font-size: 62px;
   }
@@ -454,7 +453,7 @@ nav a:visted {
 
 @media only screen and (max-width: 480px) {
   #main h1 {
-    font-size: 40px;
+    font-size: 39px;
   }
 }
 /* Footer */
