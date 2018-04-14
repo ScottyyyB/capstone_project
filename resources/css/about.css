@@ -115,6 +115,7 @@
   }
 
   .about {
+    grid-template-columns: 520px;
     justify-self: center;
   }
 }
