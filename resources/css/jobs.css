@@ -135,7 +135,8 @@ form {
   }
 
   .jobs h3 {
-    padding-left: 5rem;
+    text-align: center;
+    padding-right: 5rem;
   }
 
   form {
