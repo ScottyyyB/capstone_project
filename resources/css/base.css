@@ -60,7 +60,7 @@ textarea:focus, input:focus {
   transition: .5s;
 }
 
-.search-bar input:focus {
+.search-bar input {
   border: none;
 }
 
@@ -74,18 +74,22 @@ select {
 
 /* Reusable Component - Button */
 
+ .search-bar input, .icon, .cart, .navbar a, .button {
+  transition: 0s;
+}
+
 .button {
   border-radius: 30px;
   background-color: hsla(0, 0%, 13%, 1);
   text-align: center;
   color: hsla(0, 0%, 93%, 1);
-  transition: .50s;
   letter-spacing: .75px;
 }
 
 .button:hover {
   background-color: gray;
   color: hsla(0, 0%, 93%, 1);
+  transition: .50s;
 }
 
 /* Reusable Component - Image Container */
@@ -408,9 +412,9 @@ nav a:visted {
 
   .cart {
     justify-self: center;
-    width: 120px;
+    width: 110px;
     padding-right: 0;
-  }
+  }  
 
   #logo {
     justify-self: center;
@@ -559,6 +563,3 @@ footer a, footer h4 {
     margin: auto;
   }
  }
-
-
-
