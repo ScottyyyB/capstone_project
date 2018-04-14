@@ -85,13 +85,6 @@
   .about p {
     width: 420px; 
   }
-
-  .about {
-    justify-items: center;
-  }
-
-
-
 }
 
 @media only screen and (max-width: 565px) {
