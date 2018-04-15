@@ -165,16 +165,19 @@ input {
 
   .quantity {
     font-size: 15px;
-    width: 70px;
+    width: 80px;
     margin: auto;
-    display: block;
-    margin-right: 60px;
+   margin-right: 50px;
   }
 
   .quantity input {
     margin-top: 10px;
   }
 
+  .item-description span {
+    display: block;
+    margin-right: 30px;
+  }
 }
 
 
@@ -221,12 +224,18 @@ input {
   .shopping-cart {
     padding-bottom: 20px;
   }
+
+  .quantity {
+    margin-right: 140px;
+  }
+
+  .item-description span {
+    display: block;
+    margin-right: 60px;
+  }
   
   .total span {
     font-size: 18px;
-  }
-
-  .total span {
     padding-left: 0;
   }
 }
